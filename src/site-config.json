@@ -1,0 +1,600 @@
+{
+  "business": {
+    "name": "South Seattle Handyman",
+    "phone": "+12069903787",
+    "category": "handyman service",
+    "city": "Seattle",
+    "state": "WA"
+  },
+  "design": {
+    "preset": {
+      "id": "roofing-trust-navy",
+      "categoryGroup": "roofing",
+      "name": "Trust Navy",
+      "recipeFile": "roofing/trust-navy.astro",
+      "colors": {
+        "primary": "#2C4563",
+        "primaryDark": "#1B2F45",
+        "primaryLight": "#D4E0ED",
+        "secondary": "#3D5A80",
+        "accent": "#3D6B5A",
+        "background": "#FFFFFF",
+        "backgroundAlt": "#2C4563",
+        "surface": "#F4F6F8",
+        "text": "#1A1A2E",
+        "textLight": "#4A5568",
+        "textOnDark": "#FFFFFF",
+        "border": "#E5E7EB"
+      },
+      "typography": {
+        "headingFont": "Playfair Display",
+        "headingWeight": "700",
+        "bodyFont": "Source Sans 3",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.25"
+      },
+      "shape": {
+        "borderRadius": "6px",
+        "buttonRadius": "6px",
+        "cardRadius": "10px",
+        "shadowStyle": "soft"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "light",
+          "surface",
+          "light",
+          "dark",
+          "light"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "balanced"
+      }
+    },
+    "recipeId": "roofing/trust-navy"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Seattle's Trusted Handyman",
+      "heroSubline": "Reliable repairs and expert home maintenance. Solving Seattle's unique home challenges since 2012.",
+      "aboutTitle": "Your Seattle Home, Our Expertise",
+      "aboutText": [
+        "South Seattle Handyman started with a simple goal: to provide honest, reliable handyman services to our neighbors. We're not just contractors; we're Seattle homeowners ourselves, familiar with the unique challenges our climate and housing stock present.",
+        "We believe in clear communication, upfront pricing, and quality workmanship. Our team is comprised of skilled professionals who take pride in their work and treat your home with the respect it deserves. We show up on time, prepared, and ready to tackle any task, big or small.",
+        "We're deeply invested in the Seattle community. We source materials locally whenever possible and actively support local initiatives. When you choose South Seattle Handyman, you're supporting a local business that cares about the Emerald City."
+      ],
+      "valueProps": [
+        {
+          "title": "Local Expertise",
+          "description": "We understand Seattle homes – from Craftsman bungalows to modern condos."
+        },
+        {
+          "title": "Reliable Service",
+          "description": "On-time arrivals, clear communication, and guaranteed workmanship."
+        },
+        {
+          "title": "Upfront Pricing",
+          "description": "No hidden fees or surprises. You'll know the cost before we start."
+        },
+        {
+          "title": "Fully Insured",
+          "description": "Protecting your home and our team with comprehensive insurance coverage."
+        }
+      ],
+      "ctaHeadline": "Get Your Free Estimate Today",
+      "ctaSubline": "Let us handle your home repairs so you can enjoy all that Seattle has to offer."
+    },
+    "services": [
+      {
+        "slug": "roof-moss-removal",
+        "name": "Roof Moss Removal",
+        "shortDescription": "Protect your roof from Seattle's relentless moss growth.",
+        "description": "Seattle's damp climate is a breeding ground for moss, which can severely damage your roof over time. Our roof moss removal service is designed to safely and effectively eliminate moss, algae, and other debris, preventing costly repairs and extending the life of your roof. We use environmentally friendly treatments that won't harm your landscaping or the surrounding environment.\n\nOur process includes a thorough inspection of your roof to assess the extent of the moss growth and identify any underlying issues. We then carefully remove the moss using specialized tools and techniques that won't damage your shingles. Finally, we apply a long-lasting treatment to prevent future moss growth.\n\nDon't let moss compromise the integrity of your roof. Protect your investment with our professional roof moss removal service.",
+        "process": [
+          "Inspection and Assessment",
+          "Gentle Moss Removal",
+          "Environmentally Friendly Treatment",
+          "Preventative Application"
+        ],
+        "benefits": [
+          "Prolongs roof lifespan",
+          "Prevents water damage",
+          "Improves curb appeal",
+          "Protects property value"
+        ],
+        "faq": [
+          {
+            "question": "How often should I have my roof cleaned?",
+            "answer": "In Seattle, we recommend having your roof cleaned every 1-3 years, depending on the amount of tree cover and sun exposure."
+          },
+          {
+            "question": "Will your cleaning process damage my roof?",
+            "answer": "No, we use gentle, non-abrasive techniques and environmentally friendly treatments that are safe for all types of roofing materials."
+          },
+          {
+            "question": "Do you offer any guarantees on your moss removal service?",
+            "answer": "Yes, we guarantee our moss removal treatment will prevent regrowth for up to one year. If moss returns within that time, we'll re-treat your roof free of charge."
+          }
+        ]
+      },
+      {
+        "slug": "gutter-cleaning-repair",
+        "name": "Gutter Cleaning & Repair",
+        "shortDescription": "Keep Seattle's rain away from your foundation with clean, functional gutters.",
+        "description": "Clogged or damaged gutters can lead to serious water damage to your home's foundation, siding, and landscaping. Our gutter cleaning and repair service ensures that your gutters are functioning properly, protecting your home from the elements.\n\nWe'll remove leaves, debris, and other obstructions from your gutters and downspouts, ensuring proper water flow. We'll also inspect your gutters for any signs of damage, such as leaks, cracks, or sagging, and provide expert repairs to restore their functionality.\n\nWe can also install gutter guards to prevent future clogs and reduce the need for frequent cleaning. Don't wait until water damage becomes a problem. Schedule your gutter cleaning and repair service today.",
+        "process": [
+          "Debris Removal",
+          "Gutter Inspection",
+          "Leak and Damage Repair",
+          "Downspout Clearing"
+        ],
+        "benefits": [
+          "Prevents water damage",
+          "Protects foundation",
+          "Extends gutter lifespan",
+          "Avoids costly repairs"
+        ],
+        "faq": [
+          {
+            "question": "How often should I clean my gutters?",
+            "answer": "In Seattle, we recommend cleaning your gutters at least twice a year – once in the spring and once in the fall."
+          },
+          {
+            "question": "What are the signs that my gutters need repair?",
+            "answer": "Signs of gutter damage include leaks, sagging, overflowing water, and visible cracks or rust."
+          },
+          {
+            "question": "Do you offer gutter guard installation?",
+            "answer": "Yes, we offer a variety of gutter guard options to fit your needs and budget."
+          }
+        ]
+      },
+      {
+        "slug": "drywall-repair-patching",
+        "name": "Drywall Repair & Patching",
+        "shortDescription": "Seamless drywall repairs for Seattle homes, big or small.",
+        "description": "From nail holes to major damage, our drywall repair and patching service will restore your walls to their original condition. We handle all types of drywall repairs, including patching holes, fixing cracks, and repairing water damage.\n\nOur experienced technicians will carefully assess the damage and use the appropriate techniques and materials to ensure a seamless repair. We'll match the texture and finish of your existing walls, so you won't even know there was ever a problem.\n\nWe take pride in our attention to detail and our commitment to customer satisfaction. Whether you need a small patch or a complete drywall replacement, we're here to help.",
+        "process": [
+          "Damage Assessment",
+          "Precise Patching",
+          "Texture Matching",
+          "Sanding and Finishing"
+        ],
+        "benefits": [
+          "Restores wall integrity",
+          "Improves appearance",
+          "Prevents further damage",
+          "Increases property value"
+        ],
+        "faq": [
+          {
+            "question": "How long does drywall repair take?",
+            "answer": "The duration depends on the size and complexity of the repair. Small patches can often be completed in a few hours, while larger repairs may take a day or two."
+          },
+          {
+            "question": "Can you match the texture of my existing walls?",
+            "answer": "Yes, our technicians are skilled at matching a wide variety of drywall textures."
+          },
+          {
+            "question": "Do you offer painting services after drywall repair?",
+            "answer": "Yes, we offer complete painting services to ensure a seamless finish."
+          }
+        ]
+      },
+      {
+        "slug": "deck-repair-staining",
+        "name": "Deck Repair & Staining",
+        "shortDescription": "Extend the life of your Seattle deck with expert repairs and staining.",
+        "description": "Seattle's weather can be tough on decks. Our deck repair and staining service will keep your deck looking its best and protect it from the elements. We handle all types of deck repairs, from replacing damaged boards to reinforcing structural supports.\n\nWe also offer professional deck staining services to enhance the beauty of your deck and protect it from moisture, UV rays, and mildew. We use high-quality stains that are specifically designed for outdoor use and will last for years to come.\n\nWe'll work with you to choose the perfect stain color to complement your home and landscaping. Enjoy your outdoor living space with a beautiful and well-maintained deck.",
+        "process": [
+          "Inspection and Assessment",
+          "Board Replacement and Repair",
+          "Sanding and Cleaning",
+          "Staining and Sealing"
+        ],
+        "benefits": [
+          "Extends deck lifespan",
+          "Enhances appearance",
+          "Protects from weather",
+          "Increases property value"
+        ],
+        "faq": [
+          {
+            "question": "How often should I stain my deck?",
+            "answer": "We recommend staining your deck every 2-3 years, depending on the type of wood and the amount of sun exposure."
+          },
+          {
+            "question": "What type of stain should I use on my deck?",
+            "answer": "We recommend using a high-quality oil-based or water-based stain that is specifically designed for outdoor use."
+          },
+          {
+            "question": "Do you offer deck cleaning services?",
+            "answer": "Yes, we offer professional deck cleaning services to prepare your deck for staining."
+          }
+        ]
+      },
+      {
+        "slug": "fence-repair-installation",
+        "name": "Fence Repair & Installation",
+        "shortDescription": "Protect your Seattle property with a sturdy, well-maintained fence.",
+        "description": "A well-maintained fence provides security, privacy, and curb appeal. Our fence repair and installation service will ensure that your fence is in top condition. We handle all types of fence repairs, from replacing broken posts to fixing damaged panels.\n\nWe also offer professional fence installation services for new construction or replacement projects. We'll work with you to choose the perfect fence style and materials to complement your home and landscaping.\n\nWe use high-quality materials and expert craftsmanship to ensure that your fence will last for years to come. Protect your property with a beautiful and functional fence.",
+        "process": [
+          "Site Assessment",
+          "Material Selection",
+          "Professional Installation",
+          "Quality Inspection"
+        ],
+        "benefits": [
+          "Enhances security",
+          "Provides privacy",
+          "Improves curb appeal",
+          "Increases property value"
+        ],
+        "faq": [
+          {
+            "question": "What type of fence is best for my property?",
+            "answer": "The best type of fence depends on your needs and preferences. We can help you choose the perfect fence style and materials to complement your home and landscaping."
+          },
+          {
+            "question": "How long does fence installation take?",
+            "answer": "The duration of fence installation depends on the size and complexity of the project. We'll provide you with a detailed timeline before we begin work."
+          },
+          {
+            "question": "Do you offer any warranties on your fence installations?",
+            "answer": "Yes, we offer warranties on our fence installations to protect your investment."
+          }
+        ]
+      },
+      {
+        "slug": "interior-painting",
+        "name": "Interior Painting",
+        "shortDescription": "Transform your Seattle home with a fresh coat of paint.",
+        "description": "A fresh coat of paint can revitalize your home's interior, adding value and comfort. Our interior painting service offers professional results with meticulous attention to detail. We handle everything from surface preparation to the final coat, ensuring a smooth, lasting finish.\n\nWe begin with a thorough assessment of your walls, repairing any imperfections like holes or cracks. We then protect your furniture and flooring before applying premium-quality paints. Our team works efficiently and cleanly, respecting your home every step of the way.\n\nWhether you're looking for a subtle refresh or a bold new look, we'll help you choose the perfect colors and finishes to create the atmosphere you desire. Experience the difference a professional painting service can make.",
+        "process": [
+          "Surface Preparation",
+          "Furniture Protection",
+          "Precise Painting",
+          "Detailed Cleanup"
+        ],
+        "benefits": [
+          "Enhances home value",
+          "Improves aesthetics",
+          "Protects surfaces",
+          "Creates a comfortable environment"
+        ],
+        "faq": [
+          {
+            "question": "How long does interior painting take?",
+            "answer": "The duration depends on the size of the space and the scope of the project. We'll provide you with a detailed timeline during the estimate."
+          },
+          {
+            "question": "Do I need to move my furniture before you arrive?",
+            "answer": "We can help move furniture, but it's helpful if you can clear small items and valuables beforehand."
+          },
+          {
+            "question": "What type of paint do you use?",
+            "answer": "We use high-quality, low-VOC paints that are durable and environmentally friendly."
+          }
+        ]
+      },
+      {
+        "slug": "exterior-wood-rot-repair",
+        "name": "Exterior Wood Rot Repair",
+        "shortDescription": "Combat Seattle's dampness with expert wood rot repair.",
+        "description": "Seattle's wet climate makes homes particularly vulnerable to wood rot. Our exterior wood rot repair service addresses this issue head-on, providing comprehensive solutions to restore the integrity and beauty of your home. We identify and repair damaged wood, preventing further deterioration and costly repairs.\n\nOur process begins with a thorough inspection to assess the extent of the rot. We then carefully remove the affected wood and replace it with high-quality, treated lumber. We also address the underlying cause of the rot, such as leaks or poor ventilation, to prevent future problems.\n\nWe pride ourselves on our attention to detail and our commitment to using the best materials and techniques. Protect your home from the damaging effects of wood rot with our expert repair service.",
+        "process": [
+          "Detailed Inspection",
+          "Rot Removal",
+          "Wood Replacement",
+          "Preventative Treatment"
+        ],
+        "benefits": [
+          "Prevents structural damage",
+          "Preserves home value",
+          "Enhances curb appeal",
+          "Avoids costly repairs"
+        ],
+        "faq": [
+          {
+            "question": "What are the signs of wood rot?",
+            "answer": "Signs of wood rot include discoloration, softness, crumbling, and a musty odor."
+          },
+          {
+            "question": "How can I prevent wood rot?",
+            "answer": "Prevent wood rot by addressing leaks, improving ventilation, and applying protective coatings to exposed wood."
+          },
+          {
+            "question": "Do you offer any warranties on your wood rot repairs?",
+            "answer": "Yes, we offer warranties on our wood rot repairs to protect your investment."
+          }
+        ]
+      }
+    ],
+    "serviceAreas": [
+      {
+        "city": "Bellevue",
+        "slug": "bellevue-wa",
+        "state": "WA",
+        "content": "South Seattle Handyman is proud to offer our full range of handyman services to the residents of Bellevue, Washington. From minor repairs to major renovations, we're equipped to handle any project in your Bellevue home. We understand the unique needs of Bellevue homeowners, particularly those in the upscale neighborhoods featuring homes built from the 1980s through the 2000s. \n\nOur experienced team is familiar with the common issues found in these homes, and we provide efficient, reliable solutions at competitive prices. Whether you need help with drywall repair, painting, plumbing fixes, or even larger projects like kitchen and bathroom remodels, South Seattle Handyman is here to help maintain and improve your Bellevue property. We are dedicated to providing top-notch service and ensuring your complete satisfaction.",
+        "localContext": "Bellevue is known for its upscale housing, developed primarily from the 1980s through the 2000s, and experiences mild, wet winters characteristic of the Pacific Northwest.",
+        "nearbyAreas": [
+          "Redmond",
+          "Kirkland",
+          "Seattle"
+        ]
+      },
+      {
+        "city": "Redmond",
+        "slug": "redmond-wa",
+        "state": "WA",
+        "content": "South Seattle Handyman provides comprehensive handyman services to the Redmond, WA area. Understanding that many residents are affiliated with the Microsoft campus and other tech companies, we offer flexible scheduling and efficient service to minimize disruption to your busy lives. We cater to the specific needs of homeowners in Redmond, addressing everything from routine maintenance to complex repairs.\n\nWe're experienced in handling projects of all sizes, from fixing leaky faucets and installing new light fixtures to larger renovations and home improvements. South Seattle Handyman is committed to providing prompt, reliable, and professional service to the Redmond community. We're here to help you maintain and improve your home, allowing you to focus on what matters most.",
+        "localContext": "Redmond is home to the Microsoft campus and has a large population of tech employees. The area experiences mild, wet winters.",
+        "nearbyAreas": [
+          "Bellevue",
+          "Kirkland",
+          "Sammamish"
+        ]
+      },
+      {
+        "city": "Kirkland",
+        "slug": "kirkland-wa",
+        "state": "WA",
+        "content": "South Seattle Handyman is dedicated to providing top-quality handyman services to the residents of Kirkland, Washington. With its beautiful waterfront homes on Lake Washington, Kirkland presents unique challenges and opportunities for home maintenance and repair. We understand the specific needs of Kirkland homeowners and are equipped to handle any project, big or small.\n\nFrom deck repairs and dock maintenance to interior renovations and general home upkeep, South Seattle Handyman is your trusted partner. We are committed to providing reliable, efficient, and professional service to the Kirkland community. We take pride in helping you maintain the beauty and value of your Kirkland home.",
+        "localContext": "Kirkland is known for its beautiful waterfront properties along Lake Washington and experiences mild, wet winters typical of the Seattle area.",
+        "nearbyAreas": [
+          "Redmond",
+          "Bellevue",
+          "Woodinville"
+        ]
+      },
+      {
+        "city": "Tacoma",
+        "slug": "tacoma-wa",
+        "state": "WA",
+        "content": "South Seattle Handyman extends its services to the historic city of Tacoma, Washington. We understand the unique character of Tacoma's homes, especially the 1900s-20s Craftsman-style houses found in the Stadium District. Our skilled team is experienced in preserving the integrity of these older homes while providing modern updates and repairs.\n\nFrom restoring original woodwork and repairing plaster walls to updating kitchens and bathrooms, South Seattle Handyman is equipped to handle any project in your Tacoma home. We're committed to providing reliable, professional service that respects the history and charm of your property. We also service newer homes with the same care and dedication.",
+        "localContext": "Tacoma features a significant number of 1900s-20s Craftsman homes, particularly in the Stadium District, and experiences mild, wet winters.",
+        "nearbyAreas": [
+          "Seattle",
+          "Federal Way",
+          "Puyallup"
+        ]
+      },
+      {
+        "city": "Bothell",
+        "slug": "bothell-wa",
+        "state": "WA",
+        "content": "South Seattle Handyman is pleased to offer handyman services to the residents of Bothell, Washington. With its many 1980s and 90s suburban developments, Bothell presents unique maintenance and repair needs. We are familiar with the common issues found in these homes and provide efficient, affordable solutions.\n\nWhether you need help with siding repair, fence maintenance, or interior updates, South Seattle Handyman is here to help. We're committed to providing prompt, reliable, and professional service to the Bothell community. We aim to help you maintain and improve your Bothell home.",
+        "localContext": "Bothell is characterized by 1980s-90s suburban developments and experiences mild, wet winters.",
+        "nearbyAreas": [
+          "Woodinville",
+          "Kirkland",
+          "Mill Creek"
+        ]
+      },
+      {
+        "city": "Sammamish",
+        "slug": "sammamish-wa",
+        "state": "WA",
+        "content": "South Seattle Handyman provides comprehensive handyman services to the Sammamish, WA area. We understand the needs of homeowners in Sammamish, and we provide efficient service to minimize disruption to your busy lives. We cater to the specific needs of homeowners in Sammamish, addressing everything from routine maintenance to complex repairs.\n\nWe're experienced in handling projects of all sizes, from fixing leaky faucets and installing new light fixtures to larger renovations and home improvements. South Seattle Handyman is committed to providing prompt, reliable, and professional service to the Sammamish community. We're here to help you maintain and improve your home, allowing you to focus on what matters most.",
+        "localContext": "Sammamish is a growing suburb with a mix of housing types, experiencing mild, wet winters typical of the Seattle area.",
+        "nearbyAreas": [
+          "Redmond",
+          "Issaquah",
+          "North Bend"
+        ]
+      },
+      {
+        "city": "Renton",
+        "slug": "renton-wa",
+        "state": "WA",
+        "content": "South Seattle Handyman is proud to offer a wide range of handyman services to the residents of Renton, Washington. We understand the diverse needs of Renton homeowners, from older homes near the historic downtown area to newer developments on the East Hill. Whether you need help with minor repairs or major renovations, our team is equipped to handle any project.\n\nWe're experienced in addressing the common maintenance issues that arise in Renton homes, and we offer efficient, reliable solutions at competitive prices. From drywall repair and painting to plumbing fixes and electrical work, South Seattle Handyman is here to help you maintain and improve your Renton property. We are committed to providing top-notch service and ensuring your complete satisfaction.",
+        "localContext": "Renton features a mix of older and newer homes, with a climate characterized by mild, wet winters.",
+        "nearbyAreas": [
+          "Seattle",
+          "Kent",
+          "Tukwila"
+        ]
+      },
+      {
+        "city": "Shoreline",
+        "slug": "shoreline-wa",
+        "state": "WA",
+        "content": "South Seattle Handyman provides professional and reliable handyman services to the community of Shoreline, Washington. Known for its blend of established neighborhoods and beautiful parks, Shoreline homes require a variety of maintenance and repair services. We are dedicated to providing efficient and effective solutions for all your home improvement needs.\n\nFrom fixing leaky faucets and replacing damaged flooring to installing new fixtures and completing minor renovations, South Seattle Handyman is equipped to handle any task, big or small. We pride ourselves on delivering exceptional customer service and quality workmanship to ensure your complete satisfaction. Let us help you keep your Shoreline home in top condition.",
+        "localContext": "Shoreline is a suburban city with a mix of older and newer homes, characterized by mild, wet winters.",
+        "nearbyAreas": [
+          "Seattle",
+          "Edmonds",
+          "Lake Forest Park"
+        ]
+      },
+      {
+        "city": "Issaquah",
+        "slug": "issaquah-wa",
+        "state": "WA",
+        "content": "South Seattle Handyman is pleased to offer its handyman services to the residents of Issaquah, Washington. Known for its outdoor recreation opportunities and family-friendly environment, Issaquah homes often require maintenance and repairs related to wear and tear from active lifestyles. We are committed to providing reliable and efficient solutions to keep your home in excellent condition.\n\nWhether you need help with deck repairs, fence maintenance, or interior home improvements, South Seattle Handyman is here to assist. We handle projects of all sizes, from minor fixes to major renovations. Our goal is to provide top-quality workmanship and outstanding customer service to the Issaquah community.",
+        "localContext": "Issaquah is a city known for its outdoor recreation opportunities and family-friendly environment, and experiences mild, wet winters.",
+        "nearbyAreas": [
+          "Sammamish",
+          "North Bend",
+          "Renton"
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Emily S.",
+        "rating": 5,
+        "service": "Gutter Cleaning",
+        "text": "South Seattle Handyman did an excellent job cleaning our gutters. They were prompt, professional, and thorough. We had a ton of leaves and debris built up, and they cleared it all out quickly and efficiently. Highly recommend!",
+        "date": "2025-03-15"
+      },
+      {
+        "name": "David K.",
+        "rating": 4,
+        "service": "Deck Repair",
+        "text": "Our deck was in pretty rough shape after years of neglect. South Seattle Handyman replaced some damaged boards and stained the whole thing. It looks fantastic now! The only reason I didn't give 5 stars is because the project took a little longer than expected.",
+        "date": "2025-02-28"
+      },
+      {
+        "name": "Sarah L.",
+        "rating": 5,
+        "service": "Drywall Repair",
+        "text": "We had a huge hole in our drywall from a plumbing leak. South Seattle Handyman patched it up perfectly. You can't even tell there was ever any damage. They were very professional and cleaned up everything after they were done.",
+        "date": "2025-01-10"
+      },
+      {
+        "name": "Michael B.",
+        "rating": 5,
+        "service": "Fence Repair",
+        "text": "Our fence was falling apart after a recent storm. South Seattle Handyman came out and repaired it quickly and efficiently. They did a great job and the price was very reasonable.",
+        "date": "2024-12-05"
+      },
+      {
+        "name": "Jessica R.",
+        "rating": 4,
+        "service": "Roof Moss Removal",
+        "text": "South Seattle Handyman removed the moss from our roof. They were very careful and did a great job. Our roof looks so much better now! I would recommend them to anyone.",
+        "date": "2024-11-20"
+      },
+      {
+        "name": "Tom H.",
+        "rating": 5,
+        "service": "Interior Painting",
+        "text": "South Seattle Handyman painted our living room and did an amazing job. They were very professional, clean, and efficient. The paint job is flawless, and we couldn't be happier with the results.",
+        "date": "2024-10-12"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "Seattle Handyman | Home Repair",
+        "description": "Reliable handyman services in Seattle, WA. Expert repairs, maintenance, and home improvement solutions. Free estimates!"
+      },
+      "about": {
+        "title": "About South Seattle Handyman",
+        "description": "Learn about our Seattle handyman company, our values, and our commitment to providing quality home repair services."
+      },
+      "services": {
+        "title": "Seattle Handyman Services",
+        "description": "Comprehensive handyman services in Seattle, WA. From roof repair to drywall patching, we've got you covered."
+      },
+      "contact": {
+        "title": "Contact Seattle Handyman",
+        "description": "Get in touch with South Seattle Handyman for a free estimate. Call us at +12069903787 or fill out our online form."
+      },
+      "reviews": {
+        "title": "Seattle Handyman Reviews",
+        "description": "Read what our satisfied customers are saying about South Seattle Handyman. See why we're Seattle's trusted handyman service."
+      },
+      "service-areas": {
+        "title": "Seattle Handyman Service Areas",
+        "description": "South Seattle Handyman services Bellevue, Redmond, Kirkland, Tacoma, Bothell, and surrounding areas. Contact us today!"
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "800+",
+      "satisfaction": "97%",
+      "teamSize": "20+"
+    }
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "roof-moss-removal": "/images/service-roof-moss-removal.webp",
+      "gutter-cleaning-repair": "/images/service-gutter-cleaning-repair.webp",
+      "drywall-repair-patching": "/images/service-drywall-repair-patching.webp",
+      "deck-repair-staining": "/images/service-deck-repair-staining.webp",
+      "fence-repair-installation": "/images/service-fence-repair-installation.webp",
+      "interior-painting": "/images/service-interior-painting.webp",
+      "exterior-wood-rot-repair": "/images/service-exterior-wood-rot-repair.webp"
+    },
+    "servicesResponsive": {
+      "roof-moss-removal": {
+        "src": "/images/service-roof-moss-removal.webp",
+        "srcset": "/images/service-roof-moss-removal-400w.webp 400w, /images/service-roof-moss-removal-800w.webp 800w, /images/service-roof-moss-removal-1200w.webp 1200w, /images/service-roof-moss-removal.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "gutter-cleaning-repair": {
+        "src": "/images/service-gutter-cleaning-repair.webp",
+        "srcset": "/images/service-gutter-cleaning-repair-400w.webp 400w, /images/service-gutter-cleaning-repair-800w.webp 800w, /images/service-gutter-cleaning-repair-1200w.webp 1200w, /images/service-gutter-cleaning-repair.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "drywall-repair-patching": {
+        "src": "/images/service-drywall-repair-patching.webp",
+        "srcset": "/images/service-drywall-repair-patching-400w.webp 400w, /images/service-drywall-repair-patching-800w.webp 800w, /images/service-drywall-repair-patching-1200w.webp 1200w, /images/service-drywall-repair-patching.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "deck-repair-staining": {
+        "src": "/images/service-deck-repair-staining.webp",
+        "srcset": "/images/service-deck-repair-staining-400w.webp 400w, /images/service-deck-repair-staining-800w.webp 800w, /images/service-deck-repair-staining-1200w.webp 1200w, /images/service-deck-repair-staining.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "fence-repair-installation": {
+        "src": "/images/service-fence-repair-installation.webp",
+        "srcset": "/images/service-fence-repair-installation-400w.webp 400w, /images/service-fence-repair-installation-800w.webp 800w, /images/service-fence-repair-installation-1200w.webp 1200w, /images/service-fence-repair-installation.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "interior-painting": {
+        "src": "/images/service-interior-painting.webp",
+        "srcset": "/images/service-interior-painting-400w.webp 400w, /images/service-interior-painting-800w.webp 800w, /images/service-interior-painting-1200w.webp 1200w, /images/service-interior-painting.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "exterior-wood-rot-repair": {
+        "src": "/images/service-exterior-wood-rot-repair.webp",
+        "srcset": "/images/service-exterior-wood-rot-repair-400w.webp 400w, /images/service-exterior-wood-rot-repair-800w.webp 800w, /images/service-exterior-wood-rot-repair-1200w.webp 1200w, /images/service-exterior-wood-rot-repair.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
